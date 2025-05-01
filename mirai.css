@@ -1,0 +1,529 @@
+/* 上下 | 左右 */
+
+
+/* 上 | 左右 | 下 */
+
+
+/* 上 | 右 | 下 | 左 */
+
+
+
+
+
+/* 基本スタイル */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+/* ヘッダー */
+header {
+    display: flex;
+    padding: 30px 0;
+    font-size: 1.5vw;
+    color: #f4f4f4;
+    text-align: center;
+    font-family: "bodoni-urw", serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.15vw;
+    /* background-color: aqua; */
+    background-color: black;
+}
+
+.logo img {
+    width: 10vw;
+    padding: 0 15vw 0 5vw;
+    /* background-color: saddlebrown; */
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+}
+
+
+
+nav ul li {
+    margin: 0 2vw;
+    font-size: 1vw;
+    /* background-color: darkblue; */
+    color: #46B446;
+}
+
+
+
+/* メインビジュアル */
+.top-image img {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10vh;
+}
+
+.main-visual h2 {
+    background-color: salmon;
+}
+
+.main-visual .sub-heading {
+    background-color: lawngreen;
+}
+
+.main-visual p {
+    background-color: khaki;
+}
+
+
+/* ロゴ */
+.logo-re {
+    position: relative;
+    padding-top: 20vh;
+}
+
+.logo-re .logo_outline img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.logo-re .logo1 {
+    position: absolute;
+    top: 50%;
+    left: 50.8%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-re .logo1 img {
+    display: block;
+    width: 40vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+
+/* 憧れ */
+.logging {
+    color: #46B446;
+    text-align: center;
+    padding-top: 40vh;
+    /* background-color: salmon; */
+}
+
+.glitter-logging img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5vw;
+}
+
+.glitter-logging {
+    padding-bottom: 20vh;
+}
+
+.bg-logging {
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.bg-logging img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.bg-logging h2 {
+    position: absolute;
+    font-family: ryo-display-plusn, serif;
+    font-size: 12vw;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: sandybrown; */
+}
+
+.sub-heading {
+    font-family: "bodoni-urw", serif;
+    font-weight: 300;
+    font-size: 2vw;
+    letter-spacing: 0.25vw;
+}
+
+.overview {
+    /* font-family: 'bodoni-urw','ryo-display-plusn',  normal;  */
+    font-family: "bodoni-urw", ryo-display-plusn, serif;
+    font-weight: 300;
+    font-size: 2vw;
+    letter-spacing: 0.5vw;
+    line-height: 12vh;
+    padding-top: 25vh;
+}
+
+
+
+/* エピソード1 */
+.episode1 {
+    position: relative;
+    margin-top: 20vh;
+    margin-bottom: 30vh;
+    color: #46B446;
+    /* background-color: aquamarine; */
+}
+
+.bg-ep1 img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.episode1-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    /* background-color: salmon; */
+}
+
+.glitter-ep1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5vw;
+    /* background-color: aqua; */
+}
+
+.episode1-text ul {
+    padding-left: 0px;
+    /* background-color: palegreen; */
+}
+
+.episode1-text ul li {
+    text-align: center;
+    align-items: center;
+    font-family: "bodoni-urw", ryo-display-plusn, normal;
+    font-weight: 200;
+    list-style: none;
+    /* background-color: #f4f4f4; */
+
+}
+
+.episode1-text ul li:nth-child(1) {
+    font-size: 1vw;
+    letter-spacing: 0.25vw;
+    padding-top: 3vh;
+}
+
+.episode1-text ul li:nth-child(2) {
+    font-size: 1vw;
+    letter-spacing: 0.25vw;
+    padding-top: 1vh;
+}
+
+.episode1-text ul li:nth-child(3) {
+    font-size: 10vw;
+    font-weight: 200;
+    letter-spacing: 2vw;
+    padding-top: 15vh;
+}
+
+.episode1-text ul li:nth-child(4) {
+    font-size: 1vw;
+    padding-top: 8vh;
+}
+
+.episode1-text ul li:nth-child(5) {
+    font-size: 1vw;
+    margin-top: 15vh;
+    letter-spacing: 0.25vw;
+}
+
+.episode1-text ul li:nth-child(6) {
+    font-size: 1vw;
+    margin-top: 1vh;
+    letter-spacing: 0.25vw;
+}
+
+
+
+
+/*エピソード2*/
+
+.episode2 {
+    position: relative;
+    color: #46B446;
+    /* background-color: aqua; */
+}
+
+.bg-ep2 img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.episode2-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    /* background-color: antiquewhite; */
+}
+
+.glitter-ep2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+}
+
+.glitter-ep2 img {
+    width: 3vw;
+    /* background-color: aqua; */
+}
+
+
+.episode2-text ul {
+    padding-left: 0px;
+    /* background-color: palegreen; */
+}
+
+.episode2-text ul li {
+    text-align: center;
+    align-items: center;
+    font-family: "bodoni-urw", ryo-display-plusn, normal;
+    font-weight: 200;
+    list-style: none;
+    /* background-color: #f4f4f4; */
+
+}
+
+
+.episode2-text ul li:nth-child(1) {
+    font-size: 7vw;
+    font-weight: 200;
+    letter-spacing: 2vw;
+}
+
+.episode2-text ul li:nth-child(2) {
+    font-size: 1vw;
+    letter-spacing: 0.25vw;
+}
+
+.episode2-text ul li:nth-child(3) {
+    font-size: 1vw;
+    letter-spacing: 0.25vw;
+    padding-top: 10vh;
+}
+
+
+.creators-title {
+    position: relative;
+    font-family: "bodoni-urw", ryo-display-plusn, normal;
+    font-weight: 200;
+    list-style: none;
+    font-size: 10vw;
+    margin-left: 5vw;
+    color: #46B446;
+    /* background-color: violet; */
+}
+
+.creators-title::after {
+    position: absolute;
+    content: "";
+    top: 60%;
+    right: 0%;
+    height: 2px;
+    width: 60vw;
+    background-color: #46B446;
+}
+
+/* スタッフリスト */
+.creators {
+    position: relative;
+    color: #46B446;
+    /* background-color: skyblue; */
+}
+
+.broke img {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    opacity: 40%;
+}
+
+.creators-list {
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+
+    /* background-color: palegoldenrod; */
+}
+
+.creators-list h2 {
+    display: inline-block;
+    font-size: 1.25vw;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    background: linear-gradient(transparent 0%, #383838 0%);
+    box-decoration-break: clone;
+    /* background-color: palegoldenrod; */
+}
+
+.creators-list p {
+    font-size: 2.5vw;
+    margin-top: 0;
+    /* background-color: aqua; */
+}
+
+
+.line1 p {
+    font-family: "bodoni-urw", ryo-display-plusn;
+    font-weight: 200;
+    /* background-color: blue; */
+}
+
+.line1 h2 {
+    font-family: "bodoni-urw", ryo-display-plusn;
+    font-weight: 200;
+
+    /* background-color: seagreen; */
+}
+
+.line2 p {
+    font-family: "bodoni-urw", ryo-display-plusn;
+    font-weight: 200;
+    /* background-color: palegreen; */
+}
+
+.line2 h2 {
+    font-family: "bodoni-urw", ryo-display-plusn;
+    font-weight: 200;
+    margin-top: 5.8vh;
+    /* background-color: olive; */
+}
+
+
+
+
+
+
+
+
+
+/* discography */
+
+
+.discography-title {
+    position: relative;
+    font-family: "bodoni-urw", ryo-display-plusn, normal;
+    font-weight: 200;
+    list-style: none;
+    font-size: 10vw;
+    margin-left: 5vw;
+    color: #46B446;
+    /* background-color: violet; */
+}
+
+.discography-title::after {
+    position: absolute;
+    content: "";
+    top: 60%;
+    right: 0%;
+    height: 2px;
+    width: 40%;
+    background-color: #46B446;
+}
+
+.disco-pic {
+    position: relative;
+}
+
+.disco-pic h2 {
+    position: absolute;
+    font-family: "bodoni-urw", ryo-display-plusn, normal;
+    font-weight: 200;
+    font-size: 13vw;
+    top: -40%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    color: #46B446;
+}
+
+.disco-obj img {
+    width: 20vw;
+}
+
+.disco-pic img {
+    width: 22.5vw;
+}
+
+.disco-list1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10vw;
+    margin-top: 20vh;
+}
+
+.disco-list2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 10vw;
+    margin-top: 20vh;
+}
+
+
+
+
+
+
+
+
+
+.goods-title {
+    position: relative;
+    font-family: "bodoni-urw", ryo-display-plusn, normal;
+    font-weight: 200;
+    list-style: none;
+    font-size: 10vw;
+    margin-left: 5vw;
+    color: #46B446;
+    /* background-color: violet; */
+}
+
+.goods-title::after {
+    position: absolute;
+    content: "";
+    top: 60%;
+    right: 0%;
+    height: 2px;
+    width: 65%;
+    background-color: #46B446;
+}
+
+
+
+/* フッター */
+footer {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+    background-color: aquamarine;
+}
