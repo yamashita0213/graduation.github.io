@@ -7,37 +7,6 @@
     <title>MeRROR STUDIO</title>
     <link rel="stylesheet" href="mirai.css" />
     <link rel="stylesheet" href="https://use.typekit.net/xhl6iep.css" />
-    <script>
-      (function (d) {
-        var config = {
-            kitId: "kzl7umf",
-            scriptTimeout: 3000,
-            async: true,
-          },
-          h = d.documentElement,
-          t = setTimeout(function () {
-            h.className =
-              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-          }, config.scriptTimeout),
-          tk = d.createElement("script"),
-          f = false,
-          s = d.getElementsByTagName("script")[0],
-          a;
-        h.className += " wf-loading";
-        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
-        tk.async = true;
-        tk.onload = tk.onreadystatechange = function () {
-          a = this.readyState;
-          if (f || (a && a != "complete" && a != "loaded")) return;
-          f = true;
-          clearTimeout(t);
-          try {
-            Typekit.load(config);
-          } catch (e) {}
-        };
-        s.parentNode.insertBefore(tk, s);
-      })(document);
-    </script>
   </head>
 
   <body>
@@ -47,18 +16,18 @@
       </div>
       <nav>
         <ul>
-          <li>Story</li>
-          <li>characters</li>
-          <li>Creators</li>
-          <li>Discography</li>
-          <li>Goods</li>
+          <li><a>Story</a></li>
+          <li><a>characters</a></li>
+          <li><a href="#creators">Creators</a></li>
+          <li><a href="#discography">Discography</a></li>
+          <li><a href="#goods">Goods</a></li>
         </ul>
       </nav>
     </header>
 
     <section class="main-visual">
       <div class="top-image">
-        <img src="pic/topimg_gra.png" />
+        <img src="pic/1_gra.png" />
       </div>
     </section>
 
@@ -129,7 +98,7 @@
       </ul>
     </div>
       </div>
-      <h2 class="creators-title">Creator
+      <h2 class="creators-title" id="creators">Creator
       </h2>
     <section class="creators">
       <div class="broke">
@@ -170,7 +139,7 @@
     </div>
   </section>
 
-    <h2 class="discography-title">Discography</h2>
+    <h2 class="discography-title" id="discography">Discography</h2>
     <section class="discography">
     <div class="disco-list1">
       <div class="disco-pic">
@@ -203,12 +172,44 @@
 
     </section>
 
-    <h2 class="goods-title">Goods</h2>
+
+    <h2 class="goods-title" id="goods">Goods</h2>
     <section class="goods">
+      <ul>
+        <li><img src="pic/box.png"></li>
+        <li><img src="pic/box.png"></li>
+        <li><img src="pic/box.png"></li>
+      </ul>
+      <ul>
+        <li><img src="pic/box.png"></li>
+        <li><img src="pic/box.png"></li>
+        <li><img src="pic/box.png"></li>
+      </ul>
+      <ul>
+        <li><img src="pic/box.png"></li>
+        <li><img src="pic/box.png"></li>
+        <li><img src="pic/box.png"></li>
+      </ul>
     </section>
 
     <footer>
+      <div class="footer-link">
+            <div class="logo">
+        <img src="pic/logo_black.png" alt="MeRROR STUDIO" />
+      </div>
+      <nav>
+        <ul>
+          <li><a>Story</a></li>
+          <li><a>characters</a></li>
+          <li><a href="#creators">Creators</a></li>
+          <li><a href="#discography">Discography</a></li>
+          <li><a href="#goods">Goods</a></li>
+        </ul>
+      </nav>
+    </div>
+      <div class="copyright">
       <p>Copyright © MeRROR STUDIO All Rights Reserved.</p>
-    </footer>
+    </div>
+  </footer>
   </body>
 </html>
